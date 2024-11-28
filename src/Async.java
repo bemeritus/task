@@ -17,7 +17,7 @@ public class Async {
     public static void performTask(String taskName) {
         System.out.println(taskName + " started...");
         try {
-            Thread.sleep(1000); // Simulating 1 second of work
+            Thread.sleep(1000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
